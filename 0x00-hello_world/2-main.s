@@ -2,11 +2,11 @@
 	.text
 	.section	.rodata
 .LC0:
-	.string	"\303\211cole Holberton"
+	.string	"Holberton School"
 	.text
-	.globl	principal
-	.type	principal, @function
-principal:
+	.globl	main
+	.type	main, @function
+main:
 .LFB0:
 	.cfi_startproc
 	endbr64
@@ -15,21 +15,16 @@ principal:
 	.cfi_offset 6, -16
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
-	subq	$16, %rsp
-	movl	%edi, -4(%rbp)
 	leaq	.LC0(%rip), %rdi
 	movl	$0, %eax
 	call	printf@PLT
-	movl	$0, %edi
 	movl	$0, %eax
-	call	retour@PLT
-	nop
-	leave
+	popq	%rbp
 	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
 .LFE0:
-	.size	principal, .-principal
+	.size	main, .-main
 	.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04) 9.4.0"
 	.section	.note.GNU-stack,"",@progbits
 	.section	.note.gnu.property,"a"

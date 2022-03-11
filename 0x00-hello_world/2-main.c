@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * principal - Point d'entrée
+ * main - Entry point
  *
- * Retour : Toujours 0 (Succès)
+ * Return: Always 0 (Success)
  */
-int principal (vide)
+int main(void)
 {
-	printf("École Holberton");
-	retour (0);
+	printf("Holberton School");
+	return (0);
 }
