@@ -2,18 +2,19 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+
+/*The last digit */
+
 int main(void)
 {
 	int n, last;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2 ;
+	n = rand() - RAND_MAX / 2;
 	last = n % 10;
 	if (last > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5",n, last);
+		printf("Last digit of %d is %d and is greater than 5", n, last);
 	}
 	else
 	{
