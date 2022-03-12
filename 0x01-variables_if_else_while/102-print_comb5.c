@@ -13,11 +13,11 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		for (j = i+1; j < 10; j++)
+		for (j = i + 1; j < 10; j++)
 		{
-                	for (m = j+1; m < 10; m++)
+                	for (m = j + 1; m < 10; m++)
                 	{
-				for (k = m+1; m < 10; m++)
+				for (k = m + 1; m < 10; m++)
 		        	{
 					putchar(i);
 					putchar(j);
