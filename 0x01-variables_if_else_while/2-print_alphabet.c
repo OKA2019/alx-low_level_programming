@@ -9,10 +9,13 @@
 
 int main(void)
 {
-	char i;
-	for (i = 'a'; i < 'z'; i++)
+	char i, espace;
+
+	espace = ' ';
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(i);
 	}
+	putchar(espace);
 	return (0);
 }
