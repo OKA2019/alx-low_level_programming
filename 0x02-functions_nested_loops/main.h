@@ -24,7 +24,6 @@
 
 
 
-
 #ifndef H_PRINT_ISALPHA_H
 #define H_PRINT_ISALPHA_H
 	int _isalpha(int c);
@@ -45,12 +44,16 @@
 #endif
 
 
-
 #ifndef H_PRINT_LAST_DIGIT_H
 #define H_PRINT_LAST_DIGIT_H
 	int print_last_digit(int n);
 #endif
 
+
+#ifndef H_PRINT_JACK_BAUER_H
+#define H_PRINT_JACK_BAUER_H
+	void jack_bauer(void);
+#endif
 
 
 
