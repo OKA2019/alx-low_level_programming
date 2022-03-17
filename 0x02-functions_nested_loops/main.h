@@ -25,8 +25,17 @@
 
 
 
-
 #ifndef H_PRINT_ISALPHA_H
 #define H_PRINT_ISALPHA_H
 	int _isalpha(int c);
 #endif
+
+
+
+#ifndef H_PRINT_SIGN_H
+#define H_PRINT_SIGN_H
+	int print_sign(int n);
+#endif
+
+
+
