@@ -8,12 +8,14 @@
  */
 int main(void)
 {
-	char putchar[8]="_putchar";
 	int i;
-	
-	for (i = 0; i < 8; i++)
+	char putchar[8] = "_putchar";
+
+	i = 0;
+	while (i < 8)
 	{
 		_putchar(putchar[i]);
+		i++;
 	}
 	return (0);
 }
