@@ -15,3 +15,18 @@
 #define H_PRINT_ALPHABET_x10_H
 	void print_alphabet_x10();
 #endif
+
+
+#ifndef H_PRINT_ISLOWER_H
+#define H_PRINT_ISLOWER_H
+	int _islower(int c);
+#endif
+
+
+
+
+
+#ifndef H_PRINT_ISALPHA_H
+#define H_PRINT_ISALPHA_H
+	int _isalpha(int c);
+#endif
