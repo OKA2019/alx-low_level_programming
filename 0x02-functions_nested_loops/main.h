@@ -37,7 +37,6 @@
 #endif
 
 
-
 #ifndef H_PRINT_ABS_H
 #define H_PRINT_ABS_H
 	int _abs(int n);
@@ -56,6 +55,16 @@
 #endif
 
 
+#ifndef H_TIMES_TABLE_H
+#define H_TIMES_TABLE_H
+	void times_table(void);
+#endif
+
+
+#ifndef H_ADD_H
+#define H_ADD_H
+	int add(int, int);
+#endif
 
 
 

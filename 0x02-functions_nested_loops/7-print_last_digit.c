@@ -1,6 +1,4 @@
 #include "main.h"
-#include <time.h>
-#include <math.h>
 
 /**
  * print_last_digit - prints the last digit of a number
