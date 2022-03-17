@@ -46,6 +46,12 @@
 
 
 
+#ifndef H_PRINT_LAST_DIGIT_H
+#define H_PRINT_LAST_DIGIT_H
+	int print_last_digit(int n);
+#endif
+
+
 
 
 
