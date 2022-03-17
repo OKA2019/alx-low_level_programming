@@ -39,3 +39,14 @@
 
 
 
+#ifndef H_PRINT_ABS_H
+#define H_PRINT_ABS_H
+	int _abs(int n);
+#endif
+
+
+
+
+
+
+
