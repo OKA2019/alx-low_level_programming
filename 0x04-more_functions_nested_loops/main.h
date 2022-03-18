@@ -9,8 +9,18 @@
 #endif /*_ISDIGIT_H*/
 
 
-
 #ifndef MUL_H
 #define MUL_H
 	int mul(int a, int b);
 #endif /*MUL_H*/
+
+
+
+#ifndef PRINT_NUMBERS_H
+#define PRINT_NUMBERS_H
+	void print_numbers(void);
+#endif /*PRINT_NUMBERS_H*/
+
+
+
+
