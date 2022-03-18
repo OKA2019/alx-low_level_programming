@@ -7,3 +7,10 @@
 #define _ISDIGIT_H
 	int _isdigit(int c);
 #endif /*_ISDIGIT_H*/
+
+
+
+#ifndef MUL_H
+#define MUL_H
+	int mul(int a, int b);
+#endif /*MUL_H*/
