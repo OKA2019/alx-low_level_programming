@@ -56,6 +56,11 @@
 #endif /*PRINT_ARRAY_H*/
 
 
+#ifndef _STRCPY_H
+#define _STRCPY_H
+	char *_strcpy(char *dest, char *src);
+#endif /*_STRCPY_H*/
+
 
 
 
