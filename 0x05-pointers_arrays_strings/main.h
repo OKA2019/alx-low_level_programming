@@ -49,6 +49,14 @@
 #endif /*PUTS_HALF_H*/
 
 
+#ifndef PRINT_ARRAY_H
+#define PRINT_ARRAY_H
+	#include <stdio.h>
+	void print_array(int *a, int n);
+#endif /*PRINT_ARRAY_H*/
+
+
+
 
 
 
