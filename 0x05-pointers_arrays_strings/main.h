@@ -24,3 +24,15 @@
 	void _puts(char *str);
 #endif /*_PUTS_H*/
 
+
+#ifndef PRINT_REV
+#define PRINT_REV
+	void print_rev(char *s);
+#endif /*PRINT_REV*/
+
+
+
+
+
+
+
