@@ -31,6 +31,13 @@
 #endif /*PRINT_REV*/
 
 
+#ifndef REV_STRING_H
+#define REV_STRING_H
+	void rev_string(char *s);
+#endif /*REV_STRING_H*/
+
+
+
 
 
 
