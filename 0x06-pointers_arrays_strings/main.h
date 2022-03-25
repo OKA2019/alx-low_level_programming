@@ -33,3 +33,14 @@
 	void reverse_array(int *a, int n);
 #endif /*REV_ARRAY_H*/
 
+
+#ifndef STRING_TOUPPER_H
+#define STRING_TOUPPER_H
+	char *string_toupper(char *);
+#endif /*STRING_TOUPPER_H*/
+
+
+
+
+
+
