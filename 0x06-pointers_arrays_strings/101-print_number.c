@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_number - function that prints an integer.
- * @dest: pointer
+ * print_number - function that prints an integer
  * @n: integer
  */
 void print_number(int n)
@@ -11,7 +10,7 @@ void print_number(int n)
 	int i;
 
 	i = 0;
-	sprintf(c,"%d ", n);
+	sprintf(c, "%d", n);
 	while (c[i] != '\0')
 	{
 		_putchar(c[i]);
