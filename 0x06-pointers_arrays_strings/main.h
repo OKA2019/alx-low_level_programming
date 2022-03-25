@@ -21,3 +21,8 @@
 #endif /*_STRNCPY_H*/
 
 
+#ifndef _STRCMP_H
+#define _STRCMP_H
+	int _strcmp(char *s1, char *s2);
+#endif /*_STRCMP_H*/
+
