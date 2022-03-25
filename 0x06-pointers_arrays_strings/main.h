@@ -26,3 +26,10 @@
 	int _strcmp(char *s1, char *s2);
 #endif /*_STRCMP_H*/
 
+
+
+#ifndef REV_ARRAY_H
+#define REV_ARRAY_H
+	void reverse_array(int *a, int n);
+#endif /*REV_ARRAY_H*/
+
