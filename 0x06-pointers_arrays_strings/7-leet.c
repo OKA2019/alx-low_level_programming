@@ -1,10 +1,10 @@
 
 /**
- * string_toupper - function that concatenates two strings
+ * leet - function that concatenates two strings
  * @str: pointer
  * Return: Pointer to `str`
  */
-char *string_toupper(char *str)
+char *leet(char *str)
 {
 	int i;
 	for (i = 0; str[i] != '\0'; i++)

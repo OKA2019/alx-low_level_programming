@@ -35,11 +35,18 @@
 
 
 #ifndef STRING_TOUPPER_H
-#define STRING_TOUPPER_H
+#define _STRCAT_H
 	char *string_toupper(char *);
-#endif /*STRING_TOUPPER_H*/
+#endif /*_STRCAT_H*/
 
 
+
+
+#ifndef PRINT_NUMBER_H
+#define PRINT_NUMBER_H
+	int _putchar(char c);
+	void print_number(int n);
+#endif /*PRINT_NUMBER_H*/
 
 
 
