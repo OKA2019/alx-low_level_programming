@@ -20,21 +20,15 @@
 	int mul(int a, int b);
 #endif /*MUL_H*/
 
-
-
 #ifndef PRINT_NUMBERS_H
 #define PRINT_NUMBERS_H
 	void print_numbers(void);
 #endif /*PRINT_NUMBERS_H*/
 
-
-
 #ifndef PRINT_MOST_NUMBERS_H
 #define PRINT_MOST_NUMBERS_H
 	void print_most_numbers(void);
 #endif /*PRINT_MOST_NUMBERS_H*/
-
-
 
 #ifndef MOST_NUMBERS_H
 #define MOST_NUMBERS_H
@@ -42,12 +36,18 @@
 #endif /*MOST_NUMBERS_H*/
 
 
-
-
 #ifndef PRINT_LINE_H
 #define PRINT_LINE_H
 	void print_line(int n);
 #endif /*PRINT_LINE_H*/
+
+
+
+#ifndef PRINT_DIAGONAL_H
+#define PRINT_DIAGONAL_H
+	void print_diagonal(int n);
+#endif /*PRINT_DIAGONAL_H*/
+
 
 
 
