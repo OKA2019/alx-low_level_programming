@@ -36,4 +36,11 @@
 
 
 
+#ifndef MOST_NUMBERS_H
+#define MOST_NUMBERS_H
+	void more_numbers(void);
+#endif /*MOST_NUMBERS_H*/
+
+
+
 
