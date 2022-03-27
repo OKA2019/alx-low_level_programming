@@ -49,6 +49,12 @@
 #endif /*PRINT_DIAGONAL_H*/
 
 
+#ifndef PRINT_SQUARE_H
+#define PRINT_SQUARE_H
+	void print_square(int size);
+#endif /*PRINT_SQUARE_H*/
+
+
 
 
 
