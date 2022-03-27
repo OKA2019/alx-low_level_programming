@@ -44,3 +44,11 @@
 
 
 
+#ifndef PRINT_LINE_H
+#define PRINT_LINE_H
+	void print_line(int n);
+#endif /*PRINT_LINE_H*/
+
+
+
+
