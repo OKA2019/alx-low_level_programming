@@ -55,6 +55,12 @@
 #endif /*PRINT_SQUARE_H*/
 
 
+#ifndef PRINT_TRIANGLE_H
+#define PRINT_TRIANGLE_H
+	void print_triangle(int size);
+#endif /*PRINT_TRIANGLE_H*/
+
+
 
 
 
