@@ -29,4 +29,11 @@
 
 
 
+#ifndef PRINT_MOST_NUMBERS_H
+#define PRINT_MOST_NUMBERS_H
+	void print_most_numbers(void);
+#endif /*PRINT_MOST_NUMBERS_H*/
+
+
+
 
