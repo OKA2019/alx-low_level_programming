@@ -9,14 +9,12 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, sumX, sumY;
+	int i, sumX = 0, sumY = 0;
 
-	sumX = 0;
-	sumY = 0;
 	for (i =  0; i < size; i++)
 	{
-		sumX = sumX + a[i];
-		sumY = sumY + a[size - i - 1];
+		sumX += a[i];
+		sumY += a[size - i - 1];
 		a += size;
 	}
 	printf("%d, %d \n", sumX, sumY);
