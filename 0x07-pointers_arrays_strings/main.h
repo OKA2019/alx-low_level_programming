@@ -28,3 +28,14 @@
 
 
 
+#ifndef _STRPBRK_H
+#define _STRPBRK_H
+	char *_strpbrk(char *s, char *accept);
+#endif/*_STRPBRK_H*/
+
+
+
+
+
+
+
