@@ -27,11 +27,16 @@
 #endif/*_STRSPN_H*/
 
 
-
 #ifndef _STRPBRK_H
 #define _STRPBRK_H
 	char *_strpbrk(char *s, char *accept);
 #endif/*_STRPBRK_H*/
+
+
+#ifndef _STRSTR_H
+#define _STRSTR_H
+	char *_strstr(char *haystack, char *needle);
+#endif/*_STRSTR_H*/
 
 
 
