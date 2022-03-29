@@ -15,12 +15,16 @@
 #endif/*_MENCPY_H*/
 
 
-
 #ifndef _STRCHR_H
 #define _STRCHR_H
 	char *_strchr(char *s, char c);
 #endif/*_STRCHR_H*/
 
+
+#ifndef _STRSPN_H
+#define _STRSPN_H
+	unsigned int _strspn(char *s, char *accept);
+#endif/*_STRSPN_H*/
 
 
 

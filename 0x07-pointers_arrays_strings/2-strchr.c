@@ -1,9 +1,9 @@
 #include <string.h>
-#include <stdio.h>
+
 /**
  * _strchr - function that locates a character in a string.
  * @s: pointer
- * @c: c
+ * @c: caracter
  *
  * Return: memory area s
  */
