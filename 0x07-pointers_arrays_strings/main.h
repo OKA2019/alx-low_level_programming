@@ -39,6 +39,12 @@
 #endif/*_STRSTR_H*/
 
 
+#ifndef PRINT_CHESSBOARD
+#define PRINT_CHESSBOARD
+	void print_chessboard(char (*a)[8]);
+#endif/*PRINT_CHESSBOARD*/
+
+
 
 
 
