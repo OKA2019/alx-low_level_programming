@@ -51,6 +51,12 @@
 #endif/*PRINT_DIAGSUMS_H*/
 
 
+#ifndef SET_STRING_H
+#define SET_STRING_H
+	void set_string(char **s, char *to);
+#endif/*SET_STRING_H*/
+
+
 
 
 
