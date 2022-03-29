@@ -14,3 +14,13 @@
 	char *_memcpy(char *dest, char *src, unsigned int n);
 #endif/*_MENCPY_H*/
 
+
+
+#ifndef _STRCHR_H
+#define _STRCHR_H
+	char *_strchr(char *s, char c);
+#endif/*_STRCHR_H*/
+
+
+
+
