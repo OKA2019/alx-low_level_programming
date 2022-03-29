@@ -39,10 +39,16 @@
 #endif/*_STRSTR_H*/
 
 
-#ifndef PRINT_CHESSBOARD
-#define PRINT_CHESSBOARD
+#ifndef PRINT_CHESSBOARD_H
+#define PRINT_CHESSBOARD_H
 	void print_chessboard(char (*a)[8]);
-#endif/*PRINT_CHESSBOARD*/
+#endif/*PRINT_CHESSBOARD_H*/
+
+
+#ifndef PRINT_DIAGSUMS_H
+#define PRINT_DIAGSUMS_H
+	void print_diagsums(int *a, int size);
+#endif/*PRINT_DIAGSUMS_H*/
 
 
 
