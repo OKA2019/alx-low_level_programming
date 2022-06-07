@@ -11,21 +11,28 @@ int main(void)
 {
 	int i, j, k, m;
 
-	for (i = 0; i < 9; i++)
+	i = '0';
+	j = '0';
+	k = '0';
+	m = '0';
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (j = i + 1; j < 10; j++)
+		for (j = '0'; j < '9'; j++)
 		{
-                	for (m = j + 1; m < 10; m++)
-                	{
-				for (k = m + 1; m < 10; m++)
-		        	{
+			for (k = '0'; k <= '9'; k++)
+			{
+				for (m = '0'; m <= '9'; m++)
+				{
 					putchar(i);
 					putchar(j);
 					putchar(' ');
-					putchar(m);
 					putchar(k);
-					putchar(',');
-					putchar(' ');
+					putchar(m);
+					if ((i <= '9') && (j <= '8') && (k <= '9') && (m < '9'))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
