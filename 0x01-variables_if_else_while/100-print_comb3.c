@@ -9,9 +9,10 @@
 
 int main(void)
 {
-	char i, j, k;
+	int i, j, k, m;
 
 	k = '0';
+	m = 0;
 	for (i = '0'; i <= '8'; i++)
 	{
 		k = i + 1;
@@ -19,8 +20,12 @@ int main(void)
 		{
 			putchar(i);
 			putchar(j);
-			putchar(',');
-			putchar(' ');
+			if (m < 44)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			m = m + 1;
 		}
 	}
 	putchar('\n');
