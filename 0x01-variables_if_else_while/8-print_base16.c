@@ -11,7 +11,6 @@ int main(void)
 	char i;
 	char j;
 
-	putchar(' ');
 	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
